@@ -686,7 +686,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/OLED Display 0.96_.step"
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/OLED Display 0.96_.step"
 		(offset
 			(xyz -9.2 -24.5 3.5)
 		)

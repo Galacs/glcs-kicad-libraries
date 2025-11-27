@@ -123,7 +123,7 @@
 		(uuid "7b8be690-e896-4d08-9607-3e21c1a974a8")
 	)
 	(embedded_fonts no)
-	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/xb-mt-0-102-a101-m200-rs.stp"
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/xb-mt-0-102-a101-m200-rs.stp"
 		(offset
 			(xyz 0 -4 5.5)
 		)

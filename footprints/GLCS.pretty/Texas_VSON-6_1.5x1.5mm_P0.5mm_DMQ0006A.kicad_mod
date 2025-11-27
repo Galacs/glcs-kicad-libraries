@@ -190,8 +190,7 @@
 		(uuid "88e73528-721b-4cd5-99ac-129be6744b9f")
 	)
 	(embedded_fonts no)
-	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/DMQ0006A.step"
-		(opacity 0.8900)
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/DMQ0006A.step"
 		(offset
 			(xyz -0.05 0.25 0)
 		)

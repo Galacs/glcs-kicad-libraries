@@ -200,7 +200,7 @@
 		(uuid "14125ba1-214a-4a71-93de-6a345c195011")
 	)
 	(embedded_fonts no)
-	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/BMP581.step"
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/BMP581.step"
 		(offset
 			(xyz -1 1 0)
 		)

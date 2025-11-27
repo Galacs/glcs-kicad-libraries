@@ -371,14 +371,14 @@
 		(at -4.95 8.6 180)
 		(size 1.1 1.1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "7bc561b8-b37e-44b6-b8af-85ed60e13c16")
 	)
 	(pad "" np_thru_hole circle
 		(at 3.05 8.6 180)
 		(size 1.1 1.1)
 		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "5187ad2d-03e6-4214-a722-e0050352a11b")
 	)
 	(pad "1" smd rect
@@ -460,7 +460,7 @@
 		(uuid "b141541a-8f48-4841-ae92-8601c053acd1")
 	)
 	(embedded_fonts no)
-	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/MicroSD_Socket.STEP"
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/MicroSD_Socket.STEP"
 		(opacity 0.7400)
 		(offset
 			(xyz 0 -5.35 0)
