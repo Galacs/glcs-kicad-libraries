@@ -1,0 +1,205 @@
+(footprint "Texas_VSON-6_1.5x1.5mm_P0.5mm_DMQ0006A"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Texas  VSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Texas VSON-HR NoLead")
+	(property "Reference" "REF**"
+		(at 0 -1.95 0)
+		(layer "F.SilkS")
+		(uuid "e6e3da2f-7100-441f-8ff0-0766c12abefb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_VSON-6_1.5x1.5mm_P0.5mm_DMQ0006A"
+		(at 0 1.95 0)
+		(layer "F.Fab")
+		(uuid "0e8f6dea-9e35-4674-a26e-91f5bd037092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5174806-59d1-4f86-9a06-5c3071d336aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0b794d13-b14f-4f6d-b0e1-5e072fd89f3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.647784 -1.135)
+		(end 0.647784 -1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "133d77dd-cc4b-4053-beca-b97ea3535e57")
+	)
+	(fp_line
+		(start 0.75 0.75)
+		(end -0.97 0.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef3367df-dd8b-4b16-bcbe-53190836b756")
+	)
+	(fp_poly
+		(pts
+			(xy -0.942216 -1.14) (xy -1.082216 -1.33) (xy -0.802216 -1.33)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "01d70911-8dc4-4b82-b0e3-ed779e2c52a5")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end 1 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "924de5ec-cd54-425d-8e1d-2ac74853ffc7")
+	)
+	(fp_line
+		(start -1.25 0.75)
+		(end -1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bf00d9a5-f93f-435d-a6aa-400de3df3783")
+	)
+	(fp_line
+		(start 1 -1.25)
+		(end 1 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "390999d8-88ec-4878-aff0-f07b0d12d3a9")
+	)
+	(fp_line
+		(start 1 0.75)
+		(end -1.25 0.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0e57e1d-97d7-415f-9602-f95a14cdcede")
+	)
+	(fp_poly
+		(pts
+			(xy -0.75 -0.625) (xy -0.75 0.5) (xy 0.75 0.5) (xy 0.75 -1) (xy -0.375 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "63082a14-e509-4ce7-8b96-91d1a1d75b76")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "5367e9d5-89f4-4d88-a8b6-666b842055c1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.725 -0.75)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "8fb6d886-6d83-4d58-aac9-c4891cb40dc3")
+	)
+	(pad "2" smd roundrect
+		(at -0.725 -0.25)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "4f6b8e4f-2bab-4b2e-a70a-f7d71dd205eb")
+	)
+	(pad "3" smd roundrect
+		(at -0.725 0.25)
+		(size 0.6 0.25)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "6a3543e1-d741-410b-a60e-c8b62ac3e8fc")
+	)
+	(pad "4" smd roundrect
+		(at 0.375 0.25)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7ae9c8de-6f2a-4af8-babb-d98680f2659d")
+	)
+	(pad "5" smd roundrect
+		(at 0.375 -0.25)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f1ad5bed-2dae-47db-8f61-47410b0b8c71")
+	)
+	(pad "6" smd roundrect
+		(at 0.375 -0.75)
+		(size 1 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "88e73528-721b-4cd5-99ac-129be6744b9f")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/DMQ0006A.step"
+		(opacity 0.8900)
+		(offset
+			(xyz -0.05 0.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

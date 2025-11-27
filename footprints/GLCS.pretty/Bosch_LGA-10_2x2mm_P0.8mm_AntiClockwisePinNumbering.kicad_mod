@@ -1,0 +1,214 @@
+(footprint "Bosch_LGA-10_2x2mm_P0.8mm_AntiClockwisePinNumbering"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Bosch LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0.5 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "4a65b989-0637-4e52-90fe-a445bc5b27fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bosch_LGA-10_2x2mm_P0.8mm_AntiClockwisePinNumbering"
+		(at 0 2.45 0)
+		(layer "F.Fab")
+		(uuid "bcf42068-8771-43eb-a003-da61ffd03cc9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a9f553e-d557-4e3e-850e-492eea31e89b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "becc58fc-e1cc-4639-9339-2d3da3ff9116")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.4 -0.4)
+		(end 0.4 0.4)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "5a3429ef-214d-4401-a3be-368876c6b127")
+	)
+	(fp_line
+		(start -1.2 -1)
+		(end -1.2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f177139-a522-478f-9106-99771bde728a")
+	)
+	(fp_line
+		(start 1.2 -1)
+		(end 1.2 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4bcf5f2-3c5f-474b-8a97-0b9b37c2fe1d")
+	)
+	(fp_poly
+		(pts
+			(xy 1.2 -1.2) (xy 1.2 -1.4) (xy 1.4 -1.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "41e3b379-0985-46cd-8b38-91def4e4c68d")
+	)
+	(fp_rect
+		(start -1.1 -1.1)
+		(end 1.1 1.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9468ec17-32ee-458a-9d56-c1a284af45c7")
+	)
+	(fp_poly
+		(pts
+			(xy -1 -0.5) (xy -1 1) (xy 1 1) (xy 1 -1) (xy -0.5 -1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c3ee6f0b-3e62-4a26-b331-ce396ac4b42b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cf5e77f8-6172-4394-8f8d-94c86730f48e")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.25 -0.7625 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ee6a84b5-abc4-4560-b8aa-6caf8ce0e643")
+	)
+	(pad "2" smd roundrect
+		(at -0.25 -0.7625 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5ade0acf-60f0-4298-af11-ad4db8df6bc6")
+	)
+	(pad "3" smd roundrect
+		(at -0.7625 -0.5 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "40b20d8f-28f6-46da-a687-1aad36589ee8")
+	)
+	(pad "4" smd roundrect
+		(at -0.7625 0 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3460594c-fc93-460a-9f0f-979dc3e03d22")
+	)
+	(pad "5" smd roundrect
+		(at -0.7625 0.5 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6af4264f-c8ed-4139-ae96-0aea56fa960c")
+	)
+	(pad "6" smd roundrect
+		(at -0.25 0.7625 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "452b0698-98cd-4dc6-a2ad-8fdf05334ea8")
+	)
+	(pad "7" smd roundrect
+		(at 0.25 0.7625 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2d9ad03f-e9bd-4af9-92ea-d5051d874a27")
+	)
+	(pad "8" smd roundrect
+		(at 0.7625 0.5 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "6bbe4727-eb5c-4325-973f-8103966f04e4")
+	)
+	(pad "9" smd roundrect
+		(at 0.7625 0 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1c16a0a9-1785-44cc-bb1a-b6b774ddbcc0")
+	)
+	(pad "10" smd roundrect
+		(at 0.7625 -0.5 180)
+		(size 0.325 0.325)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "14125ba1-214a-4a71-93de-6a345c195011")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/Nextcloud/02. PCB/Pers.pretty/3D/BMP581.step"
+		(offset
+			(xyz -1 1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
