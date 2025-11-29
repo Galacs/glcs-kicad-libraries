@@ -1,0 +1,337 @@
+(footprint "Texas_RPA0010A_VQFN-HR-10_3x3mm_P0.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "VQFN-HR, 10 Pin (https://www.ti.com/lit/ds/symlink/tps56a37.pdf#page=27)")
+	(tags "VQFN-HR NO LEAD")
+	(property "Reference" "REF**"
+		(at 0 -2.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8026b490-59c3-4b7d-b47b-b9bd6395362c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Texas_RPA0010A_VQFN-HR-10_3x3mm_P0.5mm"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eee0f40d-0ce7-402b-8cd2-b8b5624a9b16")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98a25f9c-227d-4541-9fe5-a37147785e64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de28e0d5-af10-4f6a-a63c-b1fb8b81a31f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.99 2)
+		(end 0.99 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f77a36d-8c13-4b1d-af3b-4f4854054d46")
+	)
+	(fp_line
+		(start 1.8 -1.22)
+		(end 1.8 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad4dc8e9-ce36-4acc-95c7-e85aeee4b8c6")
+	)
+	(fp_poly
+		(pts
+			(xy -1.6 -1.4) (xy -1.88 -1.4) (xy -1.6 -1.68) (xy -1.6 -1.4)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f079b530-9a70-4053-8b03-f87c4a4d9013")
+	)
+	(fp_rect
+		(start -1.85 -1.85)
+		(end 2.05 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e063e0fc-078a-4217-a8a0-42a6523d4667")
+	)
+	(fp_line
+		(start -1.4 -0.55)
+		(end -1.4 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "19e9498b-f47f-40c4-8b76-1b71d471a61b")
+	)
+	(fp_line
+		(start -1.4 -0.55)
+		(end -0.644444 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "fcf4eb16-528d-49b4-ada7-e9fc0b023062")
+	)
+	(fp_line
+		(start -1.4 1.4)
+		(end 1.4 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "296ecdcd-94bf-409d-8bd7-f2e7bad5cbf6")
+	)
+	(fp_line
+		(start 1.4 -1.4)
+		(end -0.644444 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e0ffa96c-1bf0-4ecc-a3fa-b05d08a80816")
+	)
+	(fp_line
+		(start 1.4 1.4)
+		(end 1.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f0e517ce-3d86-4f1f-8eda-374b19e20d08")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "88472a59-0230-4808-a6c4-ead866473589")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4 -0.75 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "79ee9e43-21f9-4f47-94ef-176cfb10dc8a")
+	)
+	(pad "2" smd roundrect
+		(at -1.4 -0.25 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "f04ac534-0db2-4efd-a12b-d2d2b9bbd454")
+	)
+	(pad "3" smd roundrect
+		(at -1.4 0.25 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c441c8da-4701-4097-85b5-06e0cf984a41")
+	)
+	(pad "4" smd roundrect
+		(at -1.4 0.75 270)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1074d881-1a26-43dc-ac92-c3d85c474541")
+	)
+	(pad "5" smd roundrect
+		(at -0.93 1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "3a7794d7-f4d0-496c-a841-41b9bc3be3f4")
+	)
+	(pad "6" smd roundrect
+		(at 0.37 0.85)
+		(size 0.25 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "985693c0-811d-4265-ab1d-b9ab416ed68c")
+	)
+	(pad "7" smd roundrect
+		(at 0.87 1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "abb84ff2-4379-4def-89ea-2855c39c7ef8")
+	)
+	(pad "8" smd custom
+		(at 0.9 -0.275)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.81 0.45)
+						(mid 0.795355 0.414645)
+						(end 0.76 0.4)
+					)
+					(arc
+						(start 0.3 0.4)
+						(mid 0.264645 0.385355)
+						(end 0.25 0.35)
+					)
+					(arc
+						(start 0.25 0.2)
+						(mid 0.264645 0.164645)
+						(end 0.3 0.15)
+					)
+					(arc
+						(start 0.76 0.15)
+						(mid 0.795355 0.135355)
+						(end 0.81 0.1)
+					)
+					(arc
+						(start 0.81 -0.05)
+						(mid 0.795355 -0.085355)
+						(end 0.76 -0.1)
+					)
+					(arc
+						(start 0.3 -0.1)
+						(mid 0.264645 -0.114645)
+						(end 0.25 -0.15)
+					)
+					(arc
+						(start 0.25 -0.3)
+						(mid 0.264645 -0.335355)
+						(end 0.3 -0.35)
+					)
+					(arc
+						(start 0.76 -0.35)
+						(mid 0.795355 -0.364645)
+						(end 0.81 -0.4)
+					)
+					(arc
+						(start 0.81 -0.55)
+						(mid 0.795355 -0.585355)
+						(end 0.76 -0.6)
+					)
+					(arc
+						(start 0.3 -0.6)
+						(mid 0.264645 -0.614645)
+						(end 0.25 -0.65)
+					)
+					(arc
+						(start 0.25 -1.35)
+						(mid 0.235355 -1.385355)
+						(end 0.2 -1.4)
+					)
+					(arc
+						(start -0.1 -1.4)
+						(mid -0.135355 -1.385355)
+						(end -0.15 -1.35)
+					)
+					(arc
+						(start -0.15 0.6)
+						(mid -0.135355 0.635355)
+						(end -0.1 0.65)
+					)
+					(arc
+						(start 0.76 0.65)
+						(mid 0.795355 0.635355)
+						(end 0.81 0.6)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "82471c04-a44d-4d74-8fb7-27317ddb032d")
+	)
+	(pad "9" smd roundrect
+		(at -0.2 -0.65)
+		(size 0.4 2.1)
+		(layers "F.Cu" "F.Mask" "F.Paste" "Dwgs.User")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "9c82a195-9dd3-43a5-ace0-beda75e6ec5c")
+	)
+	(pad "10" smd roundrect
+		(at -0.93 -1.4)
+		(size 0.25 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ae15acaa-838b-4ab8-a9be-1528be3db175")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/RPA0010A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
