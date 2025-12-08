@@ -681,6 +681,24 @@
 					)
 				)
 			)
+			(pin power_out line
+				(at -1.27 20.32 270)
+				(length 2.54)
+				(name "CP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -1.27 -20.32 90)
 				(length 2.54)
@@ -692,24 +710,6 @@
 					)
 				)
 				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 1.27 20.32 270)
-				(length 2.54)
-				(name "CP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -736,7 +736,7 @@
 				)
 			)
 			(pin power_in line
-				(at 13.97 15.24 180)
+				(at 8.89 20.32 270)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -900,7 +900,7 @@
 		)
 		(symbol "DRV8311H_1_0"
 			(pin power_in line
-				(at -1.27 20.32 270)
+				(at -3.81 20.32 270)
 				(length 2.54)
 				(name "CSAREF"
 					(effects
