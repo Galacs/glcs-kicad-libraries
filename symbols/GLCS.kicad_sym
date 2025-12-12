@@ -2036,7 +2036,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Texas_RGE0024B_VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 0 0 0)
 			(effects
 				(font
