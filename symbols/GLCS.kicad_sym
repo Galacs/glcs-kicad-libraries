@@ -2356,26 +2356,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 12.7 16.51 180)
-				(length 2.54)
-				(name "DVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 12.7 11.43 180)
+				(at 12.7 16.51 180)
 				(length 2.54)
 				(name "AOUT1"
 					(effects
@@ -2393,7 +2375,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 8.89 180)
+				(at 12.7 13.97 180)
 				(length 2.54)
 				(name "AOUT2"
 					(effects
@@ -2411,7 +2393,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 6.35 180)
+				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "BOUT2"
 					(effects
@@ -2429,7 +2411,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 3.81 180)
+				(at 12.7 8.89 180)
 				(length 2.54)
 				(name "BOUT1"
 					(effects
@@ -2447,7 +2429,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 -2.54 180)
+				(at 12.7 2.54 180)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -2465,7 +2447,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "TOFF"
 					(effects
@@ -2483,7 +2465,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -7.62 180)
+				(at 12.7 -2.54 180)
 				(length 2.54)
 				(name "DECAY0"
 					(effects
@@ -2501,7 +2483,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -10.16 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "DECAY1"
 					(effects
@@ -2511,6 +2493,24 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 12.7 -10.16 180)
+				(length 2.54)
+				(name "DVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
