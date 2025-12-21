@@ -6,7 +6,7 @@
 	(descr "https://www.keyelco.com/product-pdf.cfm?p=1025")
 	(tags "AA battery cell holder")
 	(property "Reference" "REF**"
-		(at -26 -13 180)
+		(at -40 5 180)
 		(layer "F.SilkS")
 		(uuid "2eb2e81e-441e-452d-b7c7-0aa71357ecdd")
 		(effects
@@ -55,28 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -45 -11)
-		(end 45.72 -10.96472)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "7cdcfad4-14a5-4395-92aa-b7b097029a40")
-	)
-	(fp_line
-		(start -45 10.965)
-		(end -45 -11)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9ef2b4bc-3138-41a7-81f1-15823a3a1139")
-	)
-	(fp_line
-		(start -44.28 -10)
-		(end -44.28 10)
+		(start -44.28 -5)
+		(end -44.28 5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -85,7 +65,17 @@
 		(uuid "4fe0f53b-5d9e-4f33-b995-89de3c245feb")
 	)
 	(fp_line
-		(start -44.28 -10)
+		(start -40 -10)
+		(end -44.28 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ecc86059-2f40-462c-8521-05166e195253")
+	)
+	(fp_line
+		(start -40 -10)
 		(end -9.5 -10)
 		(stroke
 			(width 0.12)
@@ -95,7 +85,17 @@
 		(uuid "f72eaa5b-2392-4076-8c3c-b593dfa0c146")
 	)
 	(fp_line
-		(start -44.28 10)
+		(start -40 10)
+		(end -44.28 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56424d45-9bd6-4de5-86de-a28f00c6600e")
+	)
+	(fp_line
+		(start -40 10)
 		(end -9.5 10)
 		(stroke
 			(width 0.12)
@@ -166,7 +166,7 @@
 	)
 	(fp_line
 		(start 10.3 -10)
-		(end 45 -10)
+		(end 40 -10)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -176,7 +176,7 @@
 	)
 	(fp_line
 		(start 10.3 10)
-		(end 45 10)
+		(end 40 10)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -185,8 +185,18 @@
 		(uuid "42aa5284-a208-4d9a-a658-c1bfe83f606f")
 	)
 	(fp_line
-		(start 45 -10)
-		(end 45 10)
+		(start 45 -5)
+		(end 40 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "234a9c4b-eed0-4799-8224-8343f2adec71")
+	)
+	(fp_line
+		(start 45 -5)
+		(end 45 5)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -195,24 +205,14 @@
 		(uuid "4a6ce308-94ca-4859-b59b-8b904a22d180")
 	)
 	(fp_line
-		(start 45.72 -11)
-		(end 45.72 10.965)
+		(start 45 5)
+		(end 40 10)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "350ae272-4599-450b-9dd5-69354f11056f")
-	)
-	(fp_line
-		(start 45.72 10.965)
-		(end -45 10.965)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a2b49e83-1bbf-4b93-8554-04c514c3168d")
+		(uuid "52ed8905-bbcd-4a86-8087-2607de4c89ce")
 	)
 	(fp_arc
 		(start -9.5 10)
@@ -310,7 +310,7 @@
 		(uuid "204eb638-a902-4c3c-989a-870082cbe22d")
 	)
 	(fp_text user "-"
-		(at -45.78 -0.06 0)
+		(at -40 -5 0)
 		(layer "F.SilkS")
 		(uuid "1a09ffa6-50de-4348-b744-6050c44443f8")
 		(effects
@@ -321,7 +321,7 @@
 		)
 	)
 	(fp_text user "+"
-		(at 46.47 0 0)
+		(at 39.75 -5.5 0)
 		(layer "F.SilkS")
 		(uuid "76ebda3c-1f07-4434-8164-a4f279c9eea9")
 		(effects
