@@ -364,7 +364,7 @@
 		(uuid "8bb9dd20-a47c-4a09-b665-4b3cefe9febb")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2460_1xAA.step"
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/Hold_18650-1p_smd_WITH_BAT.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -372,7 +372,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )
