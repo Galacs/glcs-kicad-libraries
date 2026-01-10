@@ -1,0 +1,162 @@
+(footprint "MagneticBuzzer_Huaneng_MLT-5020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "MagneticBuzzer Huaneng_MLT-5020 https://www.lcsc.com/datasheet/C94598.pdf")
+	(tags "MagneticBuzze Huaneng_MLT-5020 smd")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1dc728ec-b33f-4a31-b4d5-adf7fa77681e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MagneticBuzzer_Huaneng_MLT-5020"
+		(at 0.1 6 0)
+		(layer "F.Fab")
+		(uuid "375b5d8f-ffed-4cfa-960e-98a97b323031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1718c09f-65a5-4714-a857-116a58da570f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd650486-f723-4bb4-9608-385ad0a62c79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.37 -0.5)
+		(end -4.37 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6695e4fa-e8d9-4a23-b5fb-4bb17ecc600f")
+	)
+	(fp_line
+		(start -0.5 3)
+		(end 1 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dbfa5707-3cda-40f3-8c25-49421fd1e055")
+	)
+	(fp_line
+		(start 1.5 -3)
+		(end -0.5 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff667b75-17f7-4209-94a1-bc5ac5408167")
+	)
+	(fp_line
+		(start 1.5 -3)
+		(end 3 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "046afe25-0a25-4b8b-b1ad-b3a8a6b13225")
+	)
+	(fp_line
+		(start 3 0.5)
+		(end 3 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a7a80fc-8124-4c47-b04c-f40a154ca62e")
+	)
+	(fp_rect
+		(start -4 -3)
+		(end 4.5 3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d06ed11e-8528-4a1a-98e1-00ffa21e9564")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 0.1 0)
+		(layer "F.Fab")
+		(uuid "3266f9a5-6037-427b-9078-52b37ce282f6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -2.35 -1.7 270)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "9f47832a-86e7-44b2-8589-46b3bfc77405")
+	)
+	(pad "1" smd roundrect
+		(at -2.35 1.8 270)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "0d7cb97c-65d5-40c1-b717-cf12d0eabe88")
+	)
+	(pad "2" smd roundrect
+		(at 2.65 1.8 270)
+		(size 1.6 3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(uuid "cae1404d-0b76-4cab-a402-a3bbafecaaca")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/MLT-5020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
