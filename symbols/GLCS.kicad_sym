@@ -5767,7 +5767,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -9.398 -12.446 0)
+			(at -0.508 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5775,7 @@
 			)
 		)
 		(property "Value" "TPS259472x"
-			(at 0 0 0)
+			(at 0 9.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,7 +5838,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -5856,7 +5856,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "OVCSEL"
 					(effects
@@ -5873,44 +5873,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -1.27 -12.7 90)
-				(length 2.54)
-				(name "ITIMER"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 1.27 -12.7 90)
-				(length 2.54)
-				(name "DVDT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 3.81 -12.7 90)
+				(at -15.24 -7.62 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5928,7 +5892,43 @@
 				)
 			)
 			(pin output line
-				(at 6.35 -12.7 90)
+				(at -6.35 -12.7 90)
+				(length 2.54)
+				(name "ITIMER"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -1.27 -12.7 90)
+				(length 2.54)
+				(name "DVDT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 3.81 -12.7 90)
 				(length 2.54)
 				(name "ILM"
 					(effects
