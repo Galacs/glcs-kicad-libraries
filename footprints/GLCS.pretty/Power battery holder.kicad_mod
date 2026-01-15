@@ -1,0 +1,176 @@
+(footprint "Power battery holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "48699570-d4af-468d-a73a-45dd35a3d22b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Power battery holder"
+		(at 0 9.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "175933f8-2f06-49bb-bfb8-c7835659eba0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2721230-1724-401b-8ed4-f7e1f179c2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "25997f91-873f-4dbe-bbcf-54af353f1ac9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -25 -20)
+		(end -25 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6e5c4ca2-70eb-4ff7-b481-74ecc962af56")
+	)
+	(fp_line
+		(start -25 20)
+		(end -15 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "035e6c01-a608-4aae-ad74-31b94a1d32c3")
+	)
+	(fp_line
+		(start -15 20)
+		(end -15 30)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "993f2c3e-372b-4dfe-8bdd-5f4391ded4df")
+	)
+	(fp_line
+		(start -15 30)
+		(end 10 30)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bb942650-ac9a-4dd1-b9a0-530e145ba6c2")
+	)
+	(fp_line
+		(start 10 30)
+		(end 15 30)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c61a80e9-a237-41a0-ade3-4804e54ba7bf")
+	)
+	(fp_line
+		(start 15 20)
+		(end 25 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "82689a60-5bef-4e71-8169-f9ae8613bc6f")
+	)
+	(fp_line
+		(start 15 30)
+		(end 15 20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "64be9165-9917-4939-b092-9b13fcb4c11f")
+	)
+	(fp_line
+		(start 25 -20)
+		(end -25 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "67ef05f3-ef26-4cc1-adc9-1700e0aeea23")
+	)
+	(fp_line
+		(start 25 20)
+		(end 25 -20)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "104e1005-6099-42cd-afe1-7c2db95fe844")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7346beb-6502-4abd-8a48-731dd645f3c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 19.75 0)
+		(size 4 9)
+		(drill oval 2 7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "786e6712-0512-4cd9-a423-c054abd24ac3")
+	)
+	(pad "2" thru_hole oval
+		(at -19.75 0)
+		(size 4 9)
+		(drill oval 2 7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66948118-f4a8-49b3-8d73-2c62021867b1")
+	)
+	(embedded_fonts no)
+)
