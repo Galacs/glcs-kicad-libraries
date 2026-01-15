@@ -5782,7 +5782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Texas_RPW0010A_VQFN-HR-10_2x2mm_P0.5mm"
 			(at 0 0 0)
 			(effects
 				(font
