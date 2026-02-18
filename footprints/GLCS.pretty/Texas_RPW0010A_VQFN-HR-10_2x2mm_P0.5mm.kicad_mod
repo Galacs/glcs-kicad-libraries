@@ -67,8 +67,8 @@
 		(uuid "6f77a36d-8c13-4b1d-af3b-4f4854054d46")
 	)
 	(fp_line
-		(start 1.8 -1.22)
-		(end 1.8 -1.6)
+		(start 1.5 -0.75)
+		(end 1.5 -1.13)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -78,7 +78,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -1.6 -1.4) (xy -1.88 -1.4) (xy -1.6 -1.68) (xy -1.6 -1.4)
+			(xy -1.25 -1.25) (xy -1.53 -1.25) (xy -1.25 -1.53) (xy -1.25 -1.25)
 		)
 		(stroke
 			(width 0.12)
