@@ -9186,7 +9186,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:TPSM84338"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
