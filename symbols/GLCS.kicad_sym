@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Value" "DRV8874"
-			(at 8.89 13.97 0)
+			(at 9.398 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2950,8 +2950,8 @@
 		)
 		(symbol "DRV8874_0_1"
 			(rectangle
-				(start -10.16 -12.7)
-				(end 10.16 12.7)
+				(start -10.16 12.7)
+				(end 10.16 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2999,7 +2999,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 5.08 0)
 				(length 2.54)
 				(name "~{SLEEP}"
 					(effects
@@ -3035,7 +3035,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at 0 15.24 270)
 				(length 2.54)
 				(name "VREF"
 					(effects
@@ -3053,7 +3053,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at -12.7 -5.08 0)
 				(length 2.54)
 				(name "IPROPI"
 					(effects
@@ -3089,7 +3089,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 10.16 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "OUT1"
 					(effects
@@ -3107,8 +3107,9 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -15.24 90)
+				(at 0 -15.24 90)
 				(length 2.54)
+				(hide yes)
 				(name "PGND"
 					(effects
 						(font
@@ -3125,7 +3126,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 7.62 180)
+				(at 12.7 5.08 180)
 				(length 2.54)
 				(name "OUT2"
 					(effects
@@ -3143,7 +3144,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at 2.54 15.24 270)
 				(length 2.54)
 				(name "VM"
 					(effects
@@ -3161,7 +3162,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at 12.7 10.16 180)
 				(length 2.54)
 				(name "VCP"
 					(effects
@@ -3179,7 +3180,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -2.54 180)
+				(at 12.7 -5.08 180)
 				(length 2.54)
 				(name "CPH"
 					(effects
@@ -3233,7 +3234,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
 				(name "PMODE"
 					(effects
