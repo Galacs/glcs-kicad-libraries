@@ -7280,7 +7280,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -4.318 -7.366 0)
+			(at -4.318 -6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,8 +7289,8 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "NextPM"
+			(at 5.334 -6.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
