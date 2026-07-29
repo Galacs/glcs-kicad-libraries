@@ -1,0 +1,166 @@
+(footprint "Sciosense_ENS160_LGA_9_3x3mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c3757d0b-7782-4779-8354-a12bf4193fa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sciosense_ENS160_LGA_9_3x3mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6fc3bb18-e1de-491d-b64d-e9ee468805df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5738fdc1-eeb6-406f-8e9d-0bf40a854b94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc02d9b4-78ff-4a2f-a82a-eeef2d3e9939")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 -1.5)
+		(end -1.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8e7ebe87-d03a-43ed-ace1-dcf975226098")
+	)
+	(fp_rect
+		(start -1.75 -1.75)
+		(end 1.75 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "add69093-afca-4ce8-8d31-394573e55a39")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c737b3d8-5643-49af-a30e-d42a09b4e15e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.05 -1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "107938c3-1617-43c2-af3e-f5e60cc61f6b")
+	)
+	(pad "2" smd roundrect
+		(at -1.05 0)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "aa0543be-2558-438c-b090-6a2308ac701f")
+	)
+	(pad "3" smd roundrect
+		(at -1.05 1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e5e9fcdb-cb4c-4ac8-a8c2-325fe5851921")
+	)
+	(pad "4" smd roundrect
+		(at 0 1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "4a2dc939-357c-4a59-94d6-2e8716ec4e6c")
+	)
+	(pad "5" smd roundrect
+		(at 1.05 1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "ad917df5-7d8e-447c-ae9d-49cf22ae6e08")
+	)
+	(pad "6" smd roundrect
+		(at 1.05 0)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c93e8c5a-54fd-484d-a2b9-66ccc888d56a")
+	)
+	(pad "7" smd roundrect
+		(at 1.05 -1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e46a56a8-93f1-4c97-94b3-51c142d0827a")
+	)
+	(pad "8" smd roundrect
+		(at 0 -1.05)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7c8a3ee6-782c-4f23-845a-e2167ca83cf6")
+	)
+	(pad "9" smd roundrect
+		(at 0 0)
+		(size 0.85 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7854eca2-ec38-49b3-a2d3-dc602d80acb9")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/ENS160-BGLM.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
