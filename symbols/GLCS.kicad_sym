@@ -3299,7 +3299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "GLCS:Sciosense_ENS160_LGA_9_3x3mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
