@@ -8520,7 +8520,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -33.02 0)
+				(at -20.32 -40.64 0)
 				(length 2.54)
 				(name "SIM_DATA"
 					(effects
@@ -8538,7 +8538,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -35.56 0)
+				(at -20.32 -38.1 0)
 				(length 2.54)
 				(name "SIM_CLK"
 					(effects
@@ -8556,7 +8556,7 @@
 				)
 			)
 			(pin output line
-				(at -20.32 -38.1 0)
+				(at -20.32 -35.56 0)
 				(length 2.54)
 				(name "SIM_RST"
 					(effects
@@ -8574,7 +8574,7 @@
 				)
 			)
 			(pin power_out line
-				(at -20.32 -40.64 0)
+				(at -20.32 -33.02 0)
 				(length 2.54)
 				(name "SIM_VDD"
 					(effects
@@ -8757,7 +8757,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8776,7 +8776,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9090,7 +9090,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9109,7 +9109,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9200,7 +9200,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9219,7 +9219,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9238,7 +9238,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9257,7 +9257,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -9276,7 +9276,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -20.32 -41.91 0)
+				(at -20.32 -45.72 0)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
