@@ -8197,7 +8197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_GSM:SIMCom_SIM800C"
+		(property "Footprint" "GLCS:SIMCom_SIM7080G"
 			(at 13.97 -26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
