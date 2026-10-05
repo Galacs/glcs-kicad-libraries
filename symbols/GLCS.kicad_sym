@@ -7005,7 +7005,7 @@
 		)
 		(symbol "LM74800_0_0"
 			(pin output line
-				(at -25.4 -19.05 0)
+				(at -10.16 6.35 0)
 				(length 2.54)
 				(name "DGATE"
 					(effects
@@ -7023,7 +7023,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -16.51 0)
+				(at -10.16 3.81 0)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -7041,7 +7041,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -13.97 0)
+				(at -10.16 1.27 0)
 				(length 2.54)
 				(name "VSNS"
 					(effects
@@ -7059,7 +7059,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -11.43 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "SW"
 					(effects
@@ -7077,7 +7077,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -8.89 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "OV"
 					(effects
@@ -7095,7 +7095,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -6.35 0)
+				(at 15.24 -6.35 180)
 				(length 2.54)
 				(name "EN/UVLO"
 					(effects
@@ -7113,7 +7113,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -3.81 0)
+				(at 0 -11.43 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7131,7 +7131,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 -1.27 0)
+				(at 10.16 11.43 270)
 				(length 2.54)
 				(name "HGATE"
 					(effects
@@ -7149,7 +7149,7 @@
 				)
 			)
 			(pin power_out line
-				(at -25.4 1.27 0)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -7167,7 +7167,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 3.81 0)
+				(at 2.54 11.43 270)
 				(length 2.54)
 				(name "VS"
 					(effects
@@ -7185,7 +7185,7 @@
 				)
 			)
 			(pin output line
-				(at -25.4 6.35 0)
+				(at 7.62 11.43 270)
 				(length 2.54)
 				(name "CAP"
 					(effects
@@ -7203,7 +7203,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 8.89 0)
+				(at 0 11.43 270)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -7221,8 +7221,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 11.43 0)
+				(at -2.54 -11.43 90)
 				(length 2.54)
+				(hide yes)
 				(name "EPAD"
 					(effects
 						(font
@@ -7236,6 +7237,19 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+		(symbol "LM74800_1_1"
+			(rectangle
+				(start -7.62 8.89)
+				(end 12.7 -8.89)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
