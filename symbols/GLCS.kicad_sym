@@ -7131,7 +7131,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 11.43 270)
+				(at 15.24 3.81 180)
 				(length 2.54)
 				(name "HGATE"
 					(effects
@@ -7185,7 +7185,7 @@
 				)
 			)
 			(pin output line
-				(at 7.62 11.43 270)
+				(at 10.16 11.43 270)
 				(length 2.54)
 				(name "CAP"
 					(effects
