@@ -7689,6 +7689,8 @@
 					)
 				)
 			)
+		)
+		(symbol "LM74800_1_0"
 			(pin no_connect line
 				(at -2.54 -11.43 90)
 				(length 2.54)
@@ -7700,7 +7702,7 @@
 						)
 					)
 				)
-				(number "RTN"
+				(number "13"
 					(effects
 						(font
 							(size 1.27 1.27)
