@@ -13483,7 +13483,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(hide yes)
@@ -13502,7 +13502,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(hide yes)
@@ -13539,7 +13539,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -19.05 90)
 				(length 2.54)
 				(hide yes)
@@ -13702,7 +13702,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -19.05 90)
 				(length 2.54)
 				(hide yes)
@@ -13739,7 +13739,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(hide yes)
@@ -13776,7 +13776,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13795,7 +13795,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13814,7 +13814,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13833,7 +13833,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13852,7 +13852,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13871,7 +13871,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13890,7 +13890,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin passive line
 				(at 13.97 6.35 180)
 				(length 2.54)
 				(hide yes)
@@ -13909,7 +13909,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -10.16 6.35 0)
 				(length 2.54)
 				(hide yes)
@@ -13928,7 +13928,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -19.05 90)
 				(length 2.54)
 				(hide yes)
