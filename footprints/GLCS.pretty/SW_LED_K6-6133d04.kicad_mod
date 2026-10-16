@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 -4.96 0)
 		(layer "F.SilkS")
-		(uuid "08ceb156-80fb-42a3-9fb6-a6a6d7f3d606")
+		(uuid "5d8b9245-aad7-453b-a820-0bdd9efae148")
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +17,7 @@
 	(property "Value" "SW_LED_K6-6133d04"
 		(at 0.25 1 0)
 		(layer "F.Fab")
-		(uuid "ece17499-8592-4c86-8c37-cb4b0da86312")
+		(uuid "53f99b1e-8433-4b8a-a5ab-5431fb442f87")
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ff21ac7b-183c-481a-82b6-70018ff91497")
+		(uuid "da570541-4e4d-465b-8334-78cb68ede4b0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +40,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7de0d7b2-94d9-4b3e-a164-d4951c29ce72")
+		(uuid "7c98cce7-eb86-4b2b-bb4f-2ead826d425f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -184,12 +184,12 @@
 		(uuid "362fc9dc-6cf5-4675-a19c-7054281735a1")
 	)
 	(pad "4" thru_hole circle
-		(at 2.5 -2.54)
+		(at -2.5 -2.54)
 		(size 1.8 1.8)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "64f5a88e-b431-409a-b60f-6068b18128b4")
+		(uuid "8e5607a1-11ae-44a4-90cf-b4affbc05ed8")
 	)
 	(pad "5" thru_hole circle
 		(at 0 -2.54)
@@ -200,12 +200,12 @@
 		(uuid "ab153a3a-a590-4a31-96ae-e94127db3462")
 	)
 	(pad "6" thru_hole circle
-		(at -2.5 -2.54)
+		(at 2.5 -2.54)
 		(size 1.8 1.8)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8e5607a1-11ae-44a4-90cf-b4affbc05ed8")
+		(uuid "64f5a88e-b431-409a-b60f-6068b18128b4")
 	)
 	(pad "7" thru_hole circle
 		(at -3.8 0)
