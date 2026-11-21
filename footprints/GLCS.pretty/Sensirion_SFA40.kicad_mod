@@ -1,0 +1,241 @@
+(footprint "Sensirion_SFA40"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Miniature Electrochemical Formaldehyde Sensor")
+	(tags "Formaldehyde sensor hcho")
+	(property "Reference" "REF**"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b85fc379-877e-49b7-a92a-c79084c41144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SFA40"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "789ce42b-5e19-4f55-abaa-630bae7c98b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.fr/datasheet/3/1278/1/Sensirion_Datasheet_SFA40.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1549694c-d0be-458f-b93a-85a8ffb46f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Miniature Electrochemical Formaldehyde Sensor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f745ad8-33b5-4ee9-8916-1eed7c7587b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.5 -4.25)
+		(end -6.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e1677b56-d698-46ba-ab4e-75a87c39f18d")
+	)
+	(fp_line
+		(start -6.5 3.5)
+		(end -6.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c8d32549-c41a-41d0-ad06-8af2bb390f99")
+	)
+	(fp_line
+		(start -5.75 -5)
+		(end 6.5 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "10edf15b-b603-4e8c-8fac-4eb9f69d9fcd")
+	)
+	(fp_line
+		(start 4.5 5)
+		(end -6.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a3d1b27-2821-474f-9061-22429558b6d9")
+	)
+	(fp_line
+		(start 6.5 -5)
+		(end 6.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8cb5942a-375f-4c1c-b45f-15898a3d8e48")
+	)
+	(fp_line
+		(start 6.5 3.5)
+		(end 6.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0adac74f-77ce-447e-9df9-e15bae3c4365")
+	)
+	(fp_line
+		(start 6.5 5)
+		(end 6 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d1c7d43d-234b-4d38-9070-8b1d25378cc4")
+	)
+	(fp_arc
+		(start -5.75 -5)
+		(mid -5.96967 -4.46967)
+		(end -6.5 -4.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c93a9358-8843-4389-97dd-485187b0602b")
+	)
+	(fp_arc
+		(start 4.5 5)
+		(mid 5.25 4.25)
+		(end 6 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66968716-98dd-477b-9248-97cc2d1c3f75")
+	)
+	(fp_poly
+		(pts
+			(xy -7.5 -3.5) (xy -7 -3.5) (xy -7 -4)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f0bbd659-e546-4950-92fe-54ea2eae0d70")
+	)
+	(fp_rect
+		(start -7 -5.5)
+		(end 7 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "605e3384-88eb-41d0-9de1-6390d35c97ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1924108d-f15a-43ec-b7ce-2b9aa9f3f890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -6.51 -2.5)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e7c232d1-b62b-471c-8d5a-8ee4ff4ebf5a")
+	)
+	(pad "2" smd roundrect
+		(at -6.51 0)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "02f1d264-81de-4389-9b6a-dff4e7e4061f")
+	)
+	(pad "3" smd roundrect
+		(at -6.51 2.5)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "583ee653-459a-4059-8ce8-64608d6035c8")
+	)
+	(pad "4" smd roundrect
+		(at 6.51 2.5)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "3c93af2d-adeb-4408-927e-5a19ffb4dcfb")
+	)
+	(pad "5" smd roundrect
+		(at 6.51 0)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8ad73d9b-2392-462d-afc0-c10fe14d47da")
+	)
+	(pad "6" smd roundrect
+		(at 6.51 -2.5)
+		(size 0.88 1.06)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "1644879a-ef4e-416e-999f-b98c758c4ab1")
+	)
+	(embedded_fonts no)
+	(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/STEP_file_SFA40.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
